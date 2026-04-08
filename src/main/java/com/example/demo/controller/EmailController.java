@@ -10,11 +10,11 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/notifications")
-public class NotificationController {
+public class EmailController {
 
     private final EmailService emailService;
 
-    public NotificationController(EmailService emailService) {
+    public EmailController(EmailService emailService) {
         this.emailService = emailService;
     }
 
