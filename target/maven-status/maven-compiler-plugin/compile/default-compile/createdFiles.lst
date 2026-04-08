@@ -1,0 +1,12 @@
+com\example\demo\controller\NotificationController.class
+com\example\demo\DemoApplication.class
+com\example\demo\enums\AuditEventType.class
+com\example\demo\repository\NotificationRepository.class
+com\example\demo\service\NotificationService.class
+com\example\demo\entity\Notification.class
+com\example\demo\channel\EmailSender.class
+com\example\demo\channel\ChannelSender.class
+com\example\demo\enums\NotificationStatus.class
+com\example\demo\dto\CreateNotificationRequest.class
+com\example\demo\enums\NotificationChannel.class
+com\example\demo\ServletInitializer.class
