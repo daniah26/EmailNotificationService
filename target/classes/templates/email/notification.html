@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+        .container { max-width: 600px; margin: 40px auto; background: #ffffff;
+                     border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .header { background: #1a3c6e; color: #ffffff; padding: 24px 32px; }
+        .header h1 { margin: 0; font-size: 20px; letter-spacing: 0.5px; }
+        .header span { font-size: 12px; opacity: 0.7; }
+        .body { padding: 32px; color: #333333; line-height: 1.6; }
+        .body h2 { margin-top: 0; color: #1a3c6e; }
+        .footer { background: #f0f0f0; padding: 16px 32px; font-size: 12px;
+                  color: #888888; text-align: center; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>DigiBank</h1>
+        <span>Your trusted digital bank</span>
+    </div>
+    <div class="body">
+        <h2 th:text="${subject}">Notification Subject</h2>
+        <p th:text="${body}">Notification body goes here.</p>
+        <p th:if="${userId}">Account reference: <strong th:text="${userId}"></strong></p>
+    </div>
+    <div class="footer">
+        &copy; 2026 SecureBank. This is an automated message, please do not reply.
+    </div>
+</div>
+</body>
+</html>

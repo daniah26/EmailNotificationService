@@ -1,0 +1,17 @@
+com/example/demo/controller/EmailController$AttachmentEmailRequest.class
+com/example/demo/controller/EmailController.class
+com/example/demo/repository/NotificationRepository.class
+com/example/demo/entity/Notification.class
+com/example/demo/enums/NotificationStatus.class
+com/example/demo/dto/CreateNotificationRequest.class
+com/example/demo/enums/AuditEventType.class
+com/example/demo/enums/NotificationChannel.class
+com/example/demo/controller/NotificationController.class
+com/example/demo/controller/EmailController$TemplateEmailRequest.class
+com/example/demo/ServletInitializer.class
+com/example/demo/DemoApplication.class
+com/example/demo/service/EmailService.class
+com/example/demo/channel/ChannelSender.class
+com/example/demo/channel/EmailSender.class
+com/example/demo/controller/EmailController$SimpleEmailRequest.class
+com/example/demo/service/NotificationService.class
